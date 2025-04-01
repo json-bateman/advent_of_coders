@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	u "goutils"
+	u "github.com/jacktrusler/goutils"
 	"math"
 	"slices"
 	"strings"
@@ -39,7 +39,6 @@ func isValid(nx, ny int, maze []string) bool {
 }
 
 func findPath(start, end node, maze []string) []node {
-	visited := make(map[string]bool)
 	dist := make(map[string]int)
 	parent := make(map[node]node)
 
@@ -72,7 +71,6 @@ func findPath(start, end node, maze []string) []node {
 		}
 
 		currStr := fmt.Sprintf("x%d,y%d", currentP.x, currentP.y)
-		visited[currStr] = true
 
 		for i, dir := range u.Dirs {
 			neighbor := node{x: currentP.x + dir[0], y: currentP.y + dir[1], dir: u.Direction(i)}
@@ -99,33 +97,49 @@ func findPath(start, end node, maze []string) []node {
 	return nil
 }
 
-func day16part1(maze []string) {
+// func day16part1(maze []string) {
+//
+// 	start, end := findStartEnd(maze)
+// 	path := findPath(start, end, maze)
+//
+// 	turns := 0
+// 	dir := u.East
+// 	for _, step := range path {
+// 		if step.dir != dir {
+// 			turns += 1
+// 			dir = step.dir
+// 		}
+// 	}
+// 	fmt.Println(turns*1000 + len(path))
+//
+// }
 
-	start, end := findStartEnd(maze)
-	path := findPath(start, end, maze)
-
-	turns := 0
-	dir := u.East
-	for _, step := range path {
-		if step.dir != dir {
-			turns += 1
-			dir = step.dir
+func findStartEnd2(maze []string) (start u.Point, end u.Point) {
+	for y, line := range maze {
+		for x, r := range line {
+			if r == 'S' {
+				start = u.Point{X: x, Y: y}
+			}
+			if r == 'E' {
+				end = u.Point{X: x, Y: y}
+			}
 		}
 	}
-	fmt.Println(turns*1000 + len(path))
-
+	return start, end
 }
-
 func day16part2(maze []string) {
+	start, end := findStartEnd2(maze)
+	path := u.Dijkstra(start, end, maze)
+	fmt.Println(path)
 
 }
 
 func Day16() {
-	input := u.FileAsString("./input/2024-16-input.txt")
+	input := u.FileAsString("./input/16-example.txt")
 	maze := strings.Split(input, "\n")
 
 	fmt.Println("----- Part 1 -----")
-	day16part1(maze)
+	// day16part1(maze)
 	fmt.Println("----- Part 2 -----")
-	// day16part2(maze)
+	day16part2(maze)
 }

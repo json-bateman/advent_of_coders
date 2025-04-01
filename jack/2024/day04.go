@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goutils"
+	"github.com/jacktrusler/goutils"
 	"strings"
 )
 

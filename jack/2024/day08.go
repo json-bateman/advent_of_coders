@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"goutils"
-	u "goutils"
+	"github.com/jacktrusler/goutils"
+	u "github.com/jacktrusler/goutils"
 	"math"
 	"strings"
 )
