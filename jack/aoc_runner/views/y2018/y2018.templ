@@ -1,0 +1,18 @@
+package y2018 
+
+import "aoc-runner/views/common"
+
+templ Y2018() {
+	@common.Layout("Year: 2018") {
+		@Day01(0, "")
+	}
+}
+
+templ Day01(part1 int, running string) {
+	<div id="day12018">
+		<div>Day 01</div>
+		<button class="btn" data-on-click="@post('/year/2018/sse')">Calculate!</button>
+		<div>Result Part 1: { part1 }</div>
+		<div>{ running }</div>
+	</div>
+}

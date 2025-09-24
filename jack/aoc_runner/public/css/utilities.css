@@ -1,0 +1,43 @@
+/* ~~~~~~~~~~~~~~~ */
+/* Utility Classes */
+/* ~~~~~~~~~~~~~~~ */
+
+.bg {
+  background-color: hsl(var(--background));
+}
+
+.bg-text {
+  background-color: hsl(var(--text));
+}
+
+.bg-primary {
+  background-color: hsl(var(--primary));
+}
+
+.bg-secondary {
+  background-color: hsl(var(--secondary));
+}
+
+.bg-accent {
+  background-color: hsl(var(--accent));
+}
+
+.text {
+  color: hsl(var(--text));
+}
+
+.text-bg {
+  color: hsl(var(--background));
+}
+
+.text-primary {
+  color: hsl(var(--primary));
+}
+
+.text-secondary {
+  color: hsl(var(--secondary));
+}
+
+.text-accent {
+  color: hsl(var(--accent));
+}

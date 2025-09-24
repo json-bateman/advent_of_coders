@@ -1,0 +1,16 @@
+package views 
+
+import "aoc-runner/views/common"
+
+templ Years() {
+	@common.Layout("Years") {
+		<section>
+			<details>
+				<summary>Years</summary>
+				<div class="dropdown-content">
+					<a class="btn link" href="year/2018">2018</a>
+				</div>
+			</details>
+		</section>
+	}
+}

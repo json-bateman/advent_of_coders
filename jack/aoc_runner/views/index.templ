@@ -1,0 +1,14 @@
+package views
+
+import "aoc-runner/views/common"
+
+templ IndexPage(name string) {
+	@common.Layout("AoC!") {
+		<div>
+			<span>AoC Runner</span>
+		</div>
+		<div>
+			<a href="years">Years</a>
+		</div>
+	}
+}

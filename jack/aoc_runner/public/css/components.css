@@ -1,0 +1,71 @@
+/* ~~~~~~~~~~~~~~~~~~~
+   Component Styles
+~~~~~~~~~~~~~~~~~~~ */
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--text));
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  max-width: 1080px;
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* ~~~~~~~~~~
+   Classes 
+~~~~~~~~~~ */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--size-1) var(--size-3);
+
+  border-radius: var(--radius-1);
+  background-color: hsl(var(--primary));
+
+  font-weight: var(--font-weight-6);
+  cursor: pointer;
+  transition: background-color .3s;
+
+  &:hover {
+    background-color: hsl(var(--primary), 0.85);
+    border-color: hsl(var(--primary));
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.btn.success {
+  background-color: hsl(var(--success));
+
+  &:hover {
+    background-color: hsl(var(--success), 0.85);
+    border-color: hsl(var(--success));
+  }
+}
+
+.btn.link {
+  background-color: hsl(var(--secondary));
+  color: hsl(var(--background));
+
+  &:hover {
+    background-color: hsl(var(--secondary), 0.85);
+    border-color: hsl(var(--secondary));
+  }
+}

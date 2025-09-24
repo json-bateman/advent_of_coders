@@ -1,0 +1,8 @@
+@import "https://unpkg.com/open-props";
+
+@import "reset.css" layer(reset);
+@import "theme.css" layer(theme);
+@import "components.css" layer(components);
+
+/* Declare the layer order you want */
+@layer reset, theme, components;

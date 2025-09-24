@@ -1,0 +1,20 @@
+/* HSL values */
+:root[data-theme="light"] {
+  --text: 249, 32%, 8%;
+  --background: 240, 28%, 93%;
+  --primary: 243, 31%, 26%;
+  --secondary: 6, 31%, 67%;
+  --accent: 50, 30%, 45%;
+  --success: 117, 72%, 37%;
+  --error: 13, 72%, 51%;
+}
+
+:root[data-theme="dark"] {
+  --text: 249, 32%, 92%;
+  --background: 240, 28%, 7%;
+  --primary: 243, 31%, 74%;
+  --secondary: 6, 31%, 33%;
+  --accent: 50, 30%, 55%;
+  --success: 117, 62%, 71%;
+  --error: 13, 53%, 60%;
+}
