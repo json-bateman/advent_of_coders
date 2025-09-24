@@ -4,15 +4,42 @@ import "aoc-runner/views/common"
 
 templ Y2018() {
 	@common.Layout("Year: 2018") {
-		@Day01(0, "")
+		@Day01()
 	}
 }
 
-templ Day01(part1 int, running string) {
-	<div id="day12018">
-		<div>Day 01</div>
-		<button class="btn" data-on-click="@post('/year/2018/sse')">Calculate!</button>
-		<div>Result Part 1: { part1 }</div>
-		<div>{ running }</div>
-	</div>
+templ Day01() {
+	<section>
+		<h2>Day 01</h2>
+		<div class="table-container">
+			<table>
+				<thead>
+					<tr>
+						<th>Part</th>
+						<th>Result</th>
+						<th>Calculate</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>1</th>
+						<th id="y2018d1p1">N/A</th>
+						<th>
+							<button class="btn" data-on-click="@post('/y2018/d1/p1/sse')">Calculate!</button>
+						</th>
+					</tr>
+					<tr>
+						<th>2</th>
+						<th id="y2018d1p2">N/A</th>
+						<th>
+							<button class="btn" data-on-click="@post('/y2018/d1/p2/sse')">Calculate!</button>
+						</th>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="output">
+			<div id="y2018running">Here's where the running output will appear</div>
+		</div>
+	</section>
 }

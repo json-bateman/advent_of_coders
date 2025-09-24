@@ -10,8 +10,14 @@ body {
 }
 
 main {
-  max-width: 1080px;
   flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  max-width: 1080px;
+  width: 100%;
 }
 
 header {
@@ -22,6 +28,37 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+table {
+  width: 100%;
+}
+
+table>tbody>tr {
+  border-bottom: 1px solid hsl(var(--primary), 0.5);
+
+  &hover {
+    background-color: hsl(var(--primary));
+  }
+}
+
+table>tbody>tr:nth-child(even) {
+  background-color: hsl(var(--primary), 0.05);
+
+  &hover {
+    background-color: hsl(var(--primary));
+  }
+}
+
+thead {
+  border-top: 1px solid hsl(var(--primary));
+  border-bottom: 1px solid hsl(var(--primary));
+}
+
+th,
+td {
+  padding: 4px 8px;
+}
+
 
 /* ~~~~~~~~~~
    Classes 
@@ -68,4 +105,15 @@ footer {
     background-color: hsl(var(--secondary), 0.85);
     border-color: hsl(var(--secondary));
   }
+}
+
+.table-container {
+  overflow-x: auto;
+  width: 100%;
+  min-width: 350px;
+  max-width: 500px;
+}
+
+.output {
+  width: 100%
 }
