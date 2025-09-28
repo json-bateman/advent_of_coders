@@ -30,6 +30,8 @@ func (h *Handler) SetupRoutes(r chi.Router) {
 	// Solutions
 	r.Post("/y2018/d1/p1/sse", h.D1P1SSE)
 	r.Post("/y2018/d1/p2/sse", h.D1P2SSE)
+	r.Post("/y2018/d2/p1/sse", h.D2P1SSE)
+	r.Post("/y2018/d2/p2/sse", h.D2P2SSE)
 }
 
 func (h *Handler) Index(w http.ResponseWriter, r *http.Request) {
