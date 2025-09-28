@@ -2,7 +2,7 @@ package handler
 
 import (
 	"aoc-runner/internal/lib"
-	"fmt"
+	"aoc-runner/views/y2018"
 	"math"
 	"net/http"
 	"path/filepath"
@@ -39,10 +39,9 @@ func (h *Handler) D1P1SSE(w http.ResponseWriter, r *http.Request) {
 			sum -= num
 		}
 
-		if err := sse.PatchElements(
-			fmt.Sprintf(`<th id="y2018d1p1">%d</th>`, sum) +
-				fmt.Sprintf(`<div class="output" id="y2018running">%s</div>`, runningStr),
-		); err != nil {
+		patch := y2018.RowAndOutput("y2018d1p1", sum, runningStr)
+
+		if err := sse.PatchElementTempl(patch); err != nil {
 			h.l.Error("Error patching day1 part1")
 			return
 		}
@@ -64,9 +63,9 @@ func (h *Handler) D1P2SSE(w http.ResponseWriter, r *http.Request) {
 
 	//Output cache miss once, don't keep track of running string
 	//Traversing this array a bunch is expensive
-	if err := sse.PatchElements(
-		`<div class="output" id="y2018running">Cache Miss</div>`,
-	); err != nil {
+	patch := y2018.RowAndOutput("y2018d1p2", 0, "Cache Miss")
+
+	if err := sse.PatchElementTempl(patch); err != nil {
 		h.l.Error("Error patching day1 part2")
 		return
 	}
@@ -105,10 +104,9 @@ func (h *Handler) D1P2SSE(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	// Final Answer, cache hit
-	if err := sse.PatchElements(
-		fmt.Sprintf(`<th id="y2018d1p2">%d</th>`, finalVal) +
-			`<div class="output" id="y2018running">Cache Hit!</div>`,
-	); err != nil {
+	patch2 := y2018.RowAndOutput("y2018d1p2", sum, "Cache Hit")
+
+	if err := sse.PatchElementTempl(patch2); err != nil {
 		h.l.Error("Error patching day1 part2")
 		return
 	}

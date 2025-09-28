@@ -24,9 +24,18 @@ header {
   display: flex;
 }
 
+/* <footer class="border-t-3  text-shadow-hard pt-2 mt-8 gap-3 border-primary flex justify-center items-center text-center text-lg text-primary"> */
+
 footer {
   display: flex;
   justify-content: center;
+  gap: var(--size-px-2);
+
+  font-size: var(--font-size-3);
+  margin-top: var(--size-px-3);
+  padding-top: var(--size-px-3);
+  border-top: var(--border-size-2) solid hsl(var(--primary));
+  text-shadow: var(--shadow-2);
 }
 
 table {
@@ -56,6 +65,7 @@ thead {
 
 th,
 td {
+  text-align: center;
   padding: 4px 8px;
 }
 
@@ -110,10 +120,46 @@ td {
 .table-container {
   overflow-x: auto;
   width: 100%;
-  min-width: 350px;
-  max-width: 500px;
 }
 
+.logo {
+  width: var(--size-px-5);
+  height: var(--size-px-5);
+}
+
+
 .output {
-  width: 100%
+  overflow-y: auto;
+  max-height: 80vh;
+  scrollbar-gutter: stable;
+  border-bottom: var(--border-size-1) dashed hsl(var(--primary), 0.9);
+  /* reserve space; avoids layout shift when it appears */
+}
+
+.scroller {
+  scrollbar-width: thin;
+  /* auto | thin | none */
+  scrollbar-color: hsl(var(--primary)) hsl(var(--secondary));
+}
+
+/* Chromium/Safari/WebKit */
+.scroller::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.scroller::-webkit-scrollbar-track {
+  background: #0f0f12;
+}
+
+.scroller::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary));
+}
+
+.scroller::-webkit-scrollbar-thumb:hover {
+  background: #b0b0b0;
+}
+
+.scroller::-webkit-scrollbar-corner {
+  background: #0f0f12;
 }

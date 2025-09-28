@@ -41,3 +41,30 @@
 .text-accent {
   color: hsl(var(--accent));
 }
+
+.flex {
+  display: flex
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.gap-2 {
+  gap: var(--size-px-2)
+}
+
+.gap-4 {
+  gap: var(--size-px-4)
+}
+
+.grid-14 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--size-px-14), 1fr));
+  grid-gap: var(--size-px-4);
+}
+
+.grid-13 {
+  grid-template-columns: max-content(var(--size-px-13));
+}

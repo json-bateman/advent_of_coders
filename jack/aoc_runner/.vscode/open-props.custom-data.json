@@ -1,0 +1,4623 @@
+{
+  "version": 1.1,
+  "properties": [
+    {
+      "name": "--animation-blink",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-bounce",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-fade-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-fade-in-bloom",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-fade-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-fade-out-bloom",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-float",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-ping",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-pulse",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-scale-down",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-scale-up",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-shake-x",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-shake-y",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-shake-z",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-in-down",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-in-left",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-in-right",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-in-up",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-out-down",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-out-left",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-out-right",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-out-up",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-spin",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-circ-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-circ-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-circ-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-cubic-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-cubic-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-cubic-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-expo-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-expo-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-expo-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quad-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quad-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quad-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quart-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quart-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quart-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quint-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quint-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quint-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-sine-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-sine-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-sine-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-antique",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-classical-humanist",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-didone",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-geometric-humanist",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-handwritten",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-humanist",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-industrial",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-mono",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-monospace-code",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-monospace-slab-serif",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-neo-grotesque",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-old-style",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-rounded-sans",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-sans",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-serif",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-fluid-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-fluid-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-fluid-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-fluid-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-slab-serif",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-system-ui",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-transitional",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-13",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-14",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-15",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-16",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-17",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-18",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-19",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-20",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-21",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-22",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-23",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-24",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-25",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-26",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-27",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-28",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-29",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-30",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-space",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-highlight",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-important",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-round",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-golden",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-landscape",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-portrait",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-square",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-ultrawide",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-widescreen",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-color",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-strength",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-000",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-13",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-14",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-15",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-content-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-content-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-content-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-header-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-header-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-header-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-lg",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-md",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-000",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-13",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-14",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-15",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-000",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-13",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-14",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-15",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-sm",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-xl",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-xs",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-xxl",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-xxs",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-9",
+      "description": "Open Props variable"
+    }
+  ],
+  "values": [
+    {
+      "name": "--animation-blink",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-bounce",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-fade-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-fade-in-bloom",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-fade-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-fade-out-bloom",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-float",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-ping",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-pulse",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-scale-down",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-scale-up",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-shake-x",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-shake-y",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-shake-z",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-in-down",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-in-left",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-in-right",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-in-up",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-out-down",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-out-left",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-out-right",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-slide-out-up",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--animation-spin",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--blue-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--border-size-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--brown-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--camo-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--choco-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--cyan-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-bounce-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-circ-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-circ-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-circ-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-cubic-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-cubic-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-cubic-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-in-out-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-elastic-out-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-expo-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-expo-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-expo-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-in-out-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-out-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quad-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quad-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quad-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quart-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quart-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quart-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quint-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quint-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-quint-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-sine-in",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-sine-in-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-sine-out",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-spring-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-squish-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ease-step-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-antique",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-classical-humanist",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-didone",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-geometric-humanist",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-handwritten",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-humanist",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-industrial",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-letterspacing-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-lineheight-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-mono",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-monospace-code",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-monospace-slab-serif",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-neo-grotesque",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-old-style",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-rounded-sans",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-sans",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-serif",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-fluid-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-fluid-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-fluid-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-size-fluid-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-slab-serif",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-system-ui",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-transitional",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--font-weight-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-13",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-14",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-15",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-16",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-17",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-18",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-19",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-20",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-21",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-22",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-23",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-24",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-25",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-26",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-27",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-28",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-29",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-30",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gradient-space",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--gray-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--green-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--indigo-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--inner-shadow-highlight",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--jungle-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--layer-important",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--lime-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--noise-filter-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--orange-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--pink-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--purple-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-blob-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-conditional-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-drawn-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--radius-round",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-golden",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-landscape",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-portrait",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-square",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-ultrawide",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--ratio-widescreen",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--red-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--sand-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-color",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--shadow-strength",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-000",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-13",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-14",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-15",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-content-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-content-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-content-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-fluid-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-header-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-header-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-header-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-lg",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-md",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-000",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-13",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-14",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-15",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-px-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-00",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-000",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-13",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-14",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-15",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-relative-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-sm",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-xl",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-xs",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-xxl",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--size-xxs",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--stone-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--teal-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--violet-9",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-0",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-1",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-10",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-11",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-12",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-2",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-3",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-4",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-5",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-6",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-7",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-8",
+      "description": "Open Props variable"
+    },
+    {
+      "name": "--yellow-9",
+      "description": "Open Props variable"
+    }
+  ]
+}
