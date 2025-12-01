@@ -1,0 +1,20 @@
+package components
+
+templ HtmlWrapper(title string) {
+	<html data-theme="dark" lang="en">
+		<head>
+			<meta charset="UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+			<link href={ StaticPath("/favicon.svg") } rel="favicon"/>
+			<!-- stylesheet -->
+			<link rel="stylesheet" href="https://unpkg.com/open-props"/>
+			<link href={ StaticPath("/css/main.css") } rel="stylesheet"/>
+			<title>{ title }</title>
+			<!-- Datastar -->
+			<script type="module" src="https://cdn.jsdelivr.net/gh/starfederation/datastar@1.0.0-RC.6/bundles/datastar.js"></script>
+		</head>
+		<body>
+			{ children... }
+		</body>
+	</html>
+}

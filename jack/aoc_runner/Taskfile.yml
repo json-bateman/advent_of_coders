@@ -1,46 +1,26 @@
 version: '3'
 
 tasks:
-  templ:watch:
-    desc: Watch templ files and regenerate
-    cmd: templ generate --watch
 
-  go:watch:
-    desc: Watch Go files and restart server
-    cmd: air
-
-  # Combined development task
-  dev:
-    desc: Run all watchers in parallel
-    cmds:
-      - |
-        templ generate --watch &
-        air &
-        wait
-
-  # Build tasks
-  templ:build:
-    desc: Generate templ files
+  templ:
+    sources:
+      - ./**/*.templ
+    generates:
+      - ./**/*_templ.go
     cmd: templ generate
-
   build:
-    desc: Build everything for development
-    deps: [templ:build]
+    method: none
+    sources: 
+      - ./**/*.go
+      - exclude: ./**/*_templ.go
+    deps: 
+      - templ
     cmds:
-      - go build -o ./tmp/main ./cmd/main.go
+      - go mod tidy
+      - go build -o bin/aoc cmd/main.go 
+  default:
+    deps:
+      - build
+    cmds:
+      - ./bin/aoc
 
-  release:
-    desc: Build release package for deployment
-    deps: [templ:build]
-    cmds:
-      - mkdir -p ./release
-      - go build -o ./release/watchma ./main.go
-      - echo "Release built in ./release/"
-
-  # Utility tasks
-  clean:
-    desc: Clean build artifacts
-    cmds:
-      - rm -rf ./tmp/*
-      - rm -rf ./release/*
-      - find . -name "*_templ.go" -delete

@@ -1,0 +1,17 @@
+package web
+
+import "aoc/web/components"
+
+templ index(title string) {
+	@components.HtmlWrapper(title) {
+		<main>
+			<div>
+				<span>AoC Runner</span>
+			</div>
+			<div>
+				<a href="year">Years</a>
+			</div>
+		</main>
+		@components.Footer()
+	}
+}

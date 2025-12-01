@@ -1,38 +1,7 @@
 root = "."
-tmp_dir = "tmp"
 
 [build]
-  args_bin = []
-  bin = "tmp/main"
-  cmd = "templ generate && go build -o tmp/main ./"
-  delay = 1000
-  exclude_dir = ["assets", "tmp", "release"]
-  exclude_file = ["public/style.css"]
-  exclude_regex = ["_test.go", "_templ.go"]
-  exclude_unchanged = false
-  follow_symlink = false
-  include_ext = ["go", "templ", "html"]
-
-[color]
-  app = ""
-  build = "yellow"
-  main = "magenta"
-  runner = "green"
-  watcher = "cyan"
-
-[log]
-  main_only = false
-  silent = false
-  time = false
-
-[misc]
-  clean_on_exit = false
-
-[proxy]
-  app_port = 0
-  enabled = false
-  proxy_port = 0
-
-[screen]
-  clear_on_rebuild = false
-  keep_scroll = true
+  bin = "./bin/aoc"
+  cmd = "task build"
+  include_ext = ["go", "templ"]
+  exclude_regex = ["_templ.go"]

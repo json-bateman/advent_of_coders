@@ -1,17 +1,16 @@
-module aoc-runner
+module aoc
 
 go 1.24
 
-toolchain go1.24.7
+toolchain go1.24.10
 
 require (
+	github.com/a-h/templ v0.3.960
+	github.com/benbjohnson/hashfs v0.2.2
 	github.com/go-chi/chi/v5 v5.2.3
 	github.com/joho/godotenv v1.5.1
-)
-
-require (
-	github.com/a-h/templ v0.3.943
-	github.com/starfederation/datastar-go v1.0.2
+	github.com/kelseyhightower/envconfig v1.4.0
+	github.com/starfederation/datastar-go v1.0.3
 )
 
 require (

@@ -1,0 +1,12 @@
+package components
+
+import "time"
+
+templ Footer() {
+	<footer>
+		<span>JsonB { time.Now().Year() } </span>
+		<a href="https://github.com/json-bateman" class="logo">
+			<img src={ StaticPath("github-logo.svg") }/>
+		</a>
+	</footer>
+}
