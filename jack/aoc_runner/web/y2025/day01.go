@@ -4,13 +4,11 @@ import (
 	"aoc/lib"
 	"fmt"
 	"log/slog"
-	"math"
 	"net/http"
 	"path/filepath"
 	"strconv"
 	"time"
 
-	"github.com/a-h/templ"
 	"github.com/starfederation/datastar-go/datastar"
 )
 
@@ -46,19 +44,19 @@ func D1P1SSE(w http.ResponseWriter, r *http.Request) {
 		password := PasswordBox(actualPassword)
 
 		if err := sse.PatchElementTempl(dial); err != nil {
-			slog.Error("Error patching day1 part2 2025")
+			slog.Error("Error patching day1 part1 2025")
 			return
 		}
 		if err := sse.PatchElementTempl(patch); err != nil {
-			slog.Error("Error patching day1 part2 2025")
+			slog.Error("Error patching day1 part1 2025")
 			return
 		}
 		if err := sse.PatchElementTempl(tick); err != nil {
-			slog.Error("Error patching day1 part2 2025")
+			slog.Error("Error patching day1 part1 2025")
 			return
 		}
 		if err := sse.PatchElementTempl(password); err != nil {
-			slog.Error("Error patching day1 part2 2025")
+			slog.Error("Error patching day1 part1 2025")
 			return
 		}
 		if pos == 0 {
@@ -147,24 +145,4 @@ func parseTurn(ins string) (direction byte, amount int, err error) {
 	}
 
 	return direction, amount, nil
-}
-
-func DialTickMark(position int) templ.Component {
-	// 0 is at top, each unit is 3.6 degrees (360/100)
-	angle := float64(position) * 3.6
-
-	angleRad := angle * math.Pi / 180
-
-	// Outer point of tick
-	outerX := 100 + 80*math.Cos(angleRad)
-	outerY := 100 + 80*math.Sin(angleRad)
-
-	// Inner point of tick
-	innerX := 100 + 60*math.Cos(angleRad)
-	innerY := 100 + 60*math.Sin(angleRad)
-
-	return templ.Raw(fmt.Sprintf(
-		`<line x1="%.2f" y1="%.2f" x2="%.2f" y2="%.2f" stroke="red" stroke-width="4" stroke-linecap="round"/>`,
-		innerX, innerY, outerX, outerY,
-	))
 }
