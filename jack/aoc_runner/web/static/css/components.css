@@ -12,7 +12,8 @@ body {
 main {
   flex-grow: 1;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 section {
@@ -69,12 +70,7 @@ td {
   padding: 4px 8px;
 }
 
-
-/* ~~~~~~~~~~
-   Classes 
-~~~~~~~~~~ */
-
-.btn {
+button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -86,6 +82,7 @@ td {
   font-weight: var(--font-weight-6);
   cursor: pointer;
   transition: background-color .3s;
+  width: 200;
 
   &:hover {
     background-color: hsl(var(--primary), 0.85);
@@ -98,7 +95,7 @@ td {
   }
 }
 
-.btn.success {
+button.success {
   background-color: hsl(var(--success));
 
   &:hover {
@@ -107,7 +104,7 @@ td {
   }
 }
 
-.btn.link {
+button.link {
   background-color: hsl(var(--secondary));
   color: hsl(var(--background));
 
@@ -116,6 +113,11 @@ td {
     border-color: hsl(var(--secondary));
   }
 }
+
+/* ~~~~~~~~~~
+   Classes 
+~~~~~~~~~~ */
+
 
 .table-container {
   overflow-x: auto;

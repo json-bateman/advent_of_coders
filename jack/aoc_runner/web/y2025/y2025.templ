@@ -1,0 +1,96 @@
+package y2025
+
+import "aoc/web/components"
+import "fmt"
+
+templ y2025(title string) {
+	@components.HtmlWrapper(title) {
+		<div class="font-orbitron">
+			<div class="text-center mb-4">
+				<div class="text-4xl font-black mb-2">Advent of Code 2025</div>
+				<div class="text-xl font-medium text-secondary">Day 1: Break the Lock</div>
+			</div>
+			<div class="flex gap-4 justify-center mb-4">
+				<div class="text-center">
+					<div class="text-lg font-bold mb-2 text-primary">Part 1</div>
+					<button
+						data-on:click="@get('/year/2025/day/1/part/1')"
+					>
+						Calculate
+					</button>
+				</div>
+				<div class="text-center">
+					<div class="text-lg font-bold mb-2 text-primary">Part 2</div>
+					<button
+						data-on:click="@get('/year/2025/day/1/part/2')"
+					>
+						Calculate
+					</button>
+				</div>
+			</div>
+			<div class="flex gap-4 justify-center items-center flex-wrap">
+				@Dial(0)
+				<div class="text-center">
+					<div class="text-sm text-secondary mb-2">Password Count</div>
+					@PasswordBox(0)
+				</div>
+			</div>
+		</div>
+		@components.Footer()
+	}
+}
+
+templ OutputBox(msg string) {
+	<div id="outputBox" class="text-2xl font-black text-primary">{ msg }</div>
+}
+
+templ PasswordBox(password int) {
+	<div id="passwordBox" class="text-2xl font-black text-primary">{ fmt.Sprintf("%d", password) }</div>
+}
+
+templ Dial(position int) {
+	<svg
+		id="dial"
+		width="200"
+		height="200"
+		viewBox="0 0 200 200"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<!-- Circle background -->
+		<circle
+			cx="100"
+			cy="100"
+			r="80"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="3"
+		></circle>
+		<!-- Zero marker on the right -->
+		<circle cx="180" cy="100" r="4" fill="currentColor"></circle>
+		<text
+			x="190"
+			y="105"
+			text-anchor="start"
+			fill="currentColor"
+			font-size="12"
+			font-weight="bold"
+		>0</text>
+		<!-- Current position number in center -->
+		<text
+			x="100"
+			y="110"
+			text-anchor="middle"
+			fill="currentColor"
+			if position == 0 {
+				fill="gold"
+				class="text-2xl text-success"
+			}
+			font-weight="bold"
+			font-size="28"
+		>
+			{ fmt.Sprintf("%d", position) }
+		</text>
+		<!-- The rotating tick mark -->
+		@DialTickMark(position)
+	</svg>
+}

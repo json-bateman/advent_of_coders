@@ -9,15 +9,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/a-h/templ"
 	"github.com/starfederation/datastar-go/datastar"
 )
-
-// Day 1 | Part 1
-func Day01(w http.ResponseWriter, r *http.Request) {
-
-	templ.Handler(day01("Day 1")).Component.Render(r.Context(), w)
-}
 
 func D1P1SSE(w http.ResponseWriter, r *http.Request) {
 	sse := datastar.NewSSE(w, r)

@@ -4,6 +4,7 @@ import (
 	"aoc"
 	"aoc/web/components"
 	"aoc/web/y2018"
+	"aoc/web/y2025"
 	"context"
 	"embed"
 	"fmt"
@@ -30,12 +31,14 @@ func setupRoutes() chi.Router {
 	r.Get("/", home)
 
 	r.Get("/year", yearsHandler)
+	// 2018
 	r.Get("/year/2018", y2018.Y2018)
-	r.Get("/year/2018/day/1", y2018.Day01)
-	// r.Get("/year/2018/day/1/part/1", y2018.Day01)
 	r.Get("/year/2018/day/1/part/1", y2018.D1P1SSE)
 	r.Get("/year/2018/day/1/part/2", y2018.D1P2SSE)
-
+	// 2025
+	r.Get("/year/2025", y2025.Y2025)
+	r.Get("/year/2025/day/1/part/1", y2025.D1P1SSE)
+	r.Get("/year/2025/day/1/part/2", y2025.D1P2SSE)
 	return r
 }
 

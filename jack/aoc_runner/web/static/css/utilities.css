@@ -42,6 +42,10 @@
   color: hsl(var(--accent));
 }
 
+.text-success {
+  color: hsl(var(--success));
+}
+
 .flex {
   display: flex
 }
@@ -67,4 +71,99 @@
 
 .grid-13 {
   grid-template-columns: max-content(var(--size-px-13));
+}
+
+/* Typography */
+.font-orbitron {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.text-xs {
+  font-size: var(--font-size-0);
+}
+
+.text-sm {
+  font-size: var(--font-size-1);
+}
+
+.text-base {
+  font-size: var(--font-size-2);
+}
+
+.text-lg {
+  font-size: var(--font-size-3);
+}
+
+.text-xl {
+  font-size: var(--font-size-4);
+}
+
+.text-2xl {
+  font-size: var(--font-size-5);
+}
+
+.text-3xl {
+  font-size: var(--font-size-6);
+}
+
+.text-4xl {
+  font-size: var(--font-size-7);
+}
+
+.font-normal {
+  font-weight: var(--font-weight-4);
+}
+
+.font-medium {
+  font-weight: var(--font-weight-5);
+}
+
+.font-bold {
+  font-weight: var(--font-weight-7);
+}
+
+.font-black {
+  font-weight: var(--font-weight-9);
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Spacing */
+.mb-2 {
+  margin-bottom: var(--size-2);
+}
+
+.mb-3 {
+  margin-bottom: var(--size-3);
+}
+
+.mb-4 {
+  margin-bottom: var(--size-4);
+}
+
+.p-2 {
+  padding: var(--size-2);
+}
+
+.p-3 {
+  padding: var(--size-3);
+}
+
+.p-4 {
+  padding: var(--size-4);
+}
+
+/* Flexbox utilities */
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }

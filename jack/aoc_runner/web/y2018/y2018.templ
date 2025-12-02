@@ -1,9 +1,11 @@
-package y2018
+package y2018 
 
 import "aoc/web/components"
 
-templ day01(title string) {
+templ y2018(title string) {
 	@components.HtmlWrapper(title) {
+		<div>Days</div>
+		<a href="/year/2018/day/1">01</a>
 		<div>Part 1</div>
 		<button data-on:click="@get('/year/2018/day/1/part/1')">Calculate</button>
 		<div>Part 2</div>
