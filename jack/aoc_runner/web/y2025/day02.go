@@ -13,7 +13,7 @@ import (
 	"github.com/starfederation/datastar-go/datastar"
 )
 
-func D2P1SSE(w http.ResponseWriter, r *http.Request) {
+func D2SSE(w http.ResponseWriter, r *http.Request) {
 	sse := datastar.NewSSE(w, r)
 
 	inputPath, _ := filepath.Abs("web/y2025/input/2025-02-input.txt")
