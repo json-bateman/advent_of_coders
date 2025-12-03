@@ -5,5 +5,4 @@
 @import "components.css" layer(components);
 @import "utilities.css" layer(utilites);
 
-/* Declare the layer order you want */
 @layer reset, theme, components, utilities;

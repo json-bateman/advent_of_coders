@@ -18,3 +18,12 @@
   --success: 117, 62%, 71%;
   --error: 13, 53%, 60%;
 }
+
+/* Typography */
+.font-ibm-plex {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.font-ibm-plex-mono {
+  font-family: 'IBM Plex Mono', monospace;
+}

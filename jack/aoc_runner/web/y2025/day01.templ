@@ -1,0 +1,107 @@
+package y2025
+
+import (
+	"fmt"
+	"math"
+)
+
+templ day01() {
+	<section id="day01">
+		<div class="button-container">
+			<div class="text-center">
+				<div class="part-title">Part 1</div>
+				<button
+					data-on:click="@get('/year/2025/day/1/part/1')"
+				>
+					Calculate
+				</button>
+			</div>
+			<div class="text-center">
+				<div class="part-title">Part 2</div>
+				<button
+					data-on:click="@get('/year/2025/day/1/part/2')"
+				>
+					Calculate
+				</button>
+			</div>
+		</div>
+		<div class="flex gap-4 justify-center items-center flex-wrap">
+			@Dial(0)
+			<div class="text-center">
+				<div class="text-sm label">Password Count</div>
+				@PasswordBox(0)
+			</div>
+		</div>
+	</section>
+}
+
+templ PasswordBox(password int) {
+	<div id="passwordBox" class="text-2xl font-black text-primary">{ fmt.Sprintf("%d", password) }</div>
+}
+
+templ Dial(position int) {
+	<svg
+		id="dial"
+		width="200"
+		height="200"
+		viewBox="0 0 200 200"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<!-- Circle background -->
+		<circle
+			cx="100"
+			cy="100"
+			r="80"
+			fill="none"
+			stroke="currentColor"
+			stroke-width="3"
+		></circle>
+		<!-- Zero marker on the right -->
+		<circle cx="180" cy="100" r="4" fill="currentColor"></circle>
+		<text
+			x="190"
+			y="105"
+			text-anchor="start"
+			fill="currentColor"
+			font-size="12"
+			font-weight="bold"
+		>0</text>
+		<!-- Current position number in center -->
+		<text
+			x="100"
+			y="110"
+			text-anchor="middle"
+			fill="currentColor"
+			if position == 0 {
+				fill="gold"
+				class="text-2xl text-success"
+			}
+			font-weight="bold"
+			font-size="28"
+		>
+			{ fmt.Sprintf("%d", position) }
+		</text>
+		<!-- The rotating tick mark -->
+		@DialTickMark(position)
+	</svg>
+}
+
+func DialTickMark(position int) templ.Component {
+	// 0 is at top, each unit is 3.6 degrees (360/100)
+	angle := float64(position) * 3.6
+
+	angleRad := angle * math.Pi / 180
+
+	// Outer point of tick
+	outerX := 100 + 80*math.Cos(angleRad)
+	outerY := 100 + 80*math.Sin(angleRad)
+
+	// Inner point of tick
+	innerX := 100 + 60*math.Cos(angleRad)
+	innerY := 100 + 60*math.Sin(angleRad)
+
+	return templ.Raw(fmt.Sprintf(
+		`<line x1="%.2f" y1="%.2f" x2="%.2f" y2="%.2f" stroke="red" stroke-width="4" stroke-linecap="round"/>`,
+		innerX, innerY, outerX, outerY,
+	))
+}

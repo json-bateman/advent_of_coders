@@ -38,16 +38,11 @@ func D1P1SSE(w http.ResponseWriter, r *http.Request) {
 		if pos == 0 {
 			actualPassword++
 		}
-		patch := OutputBox(strconv.Itoa(pos))
 		dial := Dial(pos)
 		tick := DialTickMark(pos)
 		password := PasswordBox(actualPassword)
 
 		if err := sse.PatchElementTempl(dial); err != nil {
-			slog.Error("Error patching day1 part1 2025")
-			return
-		}
-		if err := sse.PatchElementTempl(patch); err != nil {
 			slog.Error("Error patching day1 part1 2025")
 			return
 		}
@@ -65,11 +60,6 @@ func D1P1SSE(w http.ResponseWriter, r *http.Request) {
 		time.Sleep(1 * time.Millisecond)
 	}
 
-	patch := OutputBox(strconv.Itoa(actualPassword))
-	if err := sse.PatchElementTempl(patch); err != nil {
-		slog.Error("Error patching day1 part1 2025")
-		return
-	}
 }
 
 func D1P2SSE(w http.ResponseWriter, r *http.Request) {
@@ -106,16 +96,11 @@ func D1P2SSE(w http.ResponseWriter, r *http.Request) {
 				pos += 100
 			}
 		}
-		patch := OutputBox(strconv.Itoa(pos))
 		dial := Dial(pos)
 		tick := DialTickMark(pos)
 		password := PasswordBox(actualPassword)
 
 		if err := sse.PatchElementTempl(dial); err != nil {
-			slog.Error("Error patching day1 part2 2025")
-			return
-		}
-		if err := sse.PatchElementTempl(patch); err != nil {
 			slog.Error("Error patching day1 part2 2025")
 			return
 		}
@@ -127,13 +112,7 @@ func D1P2SSE(w http.ResponseWriter, r *http.Request) {
 			slog.Error("Error patching day1 part2 2025")
 			return
 		}
-		time.Sleep(4 * time.Millisecond)
-	}
-
-	patch := OutputBox(strconv.Itoa(actualPassword))
-	if err := sse.PatchElementTempl(patch); err != nil {
-		slog.Error("Error Parsing Turn", "Year", "2025", "Day", "1", "Part", "2")
-		return
+		time.Sleep(1 * time.Millisecond)
 	}
 }
 

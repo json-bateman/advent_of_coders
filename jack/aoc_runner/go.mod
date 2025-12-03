@@ -7,6 +7,7 @@ toolchain go1.24.10
 require (
 	github.com/a-h/templ v0.3.960
 	github.com/benbjohnson/hashfs v0.2.2
+	github.com/dlclark/regexp2 v1.11.5
 	github.com/go-chi/chi/v5 v5.2.3
 	github.com/joho/godotenv v1.5.1
 	github.com/kelseyhightower/envconfig v1.4.0

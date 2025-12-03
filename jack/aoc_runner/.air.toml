@@ -3,5 +3,5 @@ root = "."
 [build]
   bin = "./bin/aoc"
   cmd = "task build"
-  include_ext = ["go", "templ"]
+  include_ext = ["go", "templ", "css"]
   exclude_regex = ["_templ.go"]

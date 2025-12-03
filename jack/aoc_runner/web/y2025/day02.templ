@@ -1,0 +1,44 @@
+package y2025
+
+templ day02() {
+	<section id="day02">
+		<div class="button-container">
+			<div class="text-center">
+				<div class="part-title">Both Parts</div>
+				<button
+					data-on:click="@get('/year/2025/day/2/part/1')"
+				>
+					Calculate
+				</button>
+			</div>
+		</div>
+		@MatchBox("", 0)
+		@MatchBox2("", 0)
+	</section>
+}
+
+templ MatchBox(msg string, runningTotal int) {
+	<div id="matchBox" class="matchbox">
+		<div>
+			<span class="label">Match Part 1</span>
+			<span class="text-sm">{ msg }</span>
+		</div>
+		<div>
+			<div class="label">Running Total</div>
+			<span class="text-sm">{ runningTotal }</span>
+		</div>
+	</div>
+}
+
+templ MatchBox2(msg string, runningTotal int) {
+	<div id="matchBox2" class="matchbox">
+		<div>
+			<span class="label">Match Part 2</span>
+			<span class="text-sm">{ msg }</span>
+		</div>
+		<div>
+			<div class="label">Running Total</div>
+			<span class="text-sm">{ runningTotal }</span>
+		</div>
+	</div>
+}

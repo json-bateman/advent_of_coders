@@ -74,8 +74,12 @@
 }
 
 /* Typography */
-.font-orbitron {
-  font-family: 'Orbitron', sans-serif;
+.font-ibm-plex {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.font-ibm-plex-mono {
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 .text-xs {
