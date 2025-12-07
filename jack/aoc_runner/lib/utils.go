@@ -9,6 +9,14 @@ import (
 	"strings"
 )
 
+func MakeRuneArr(strArr []string) [][]rune {
+	runeArr := make([][]rune, len(strArr))
+	for i, s := range strArr {
+		runeArr[i] = []rune(s)
+	}
+	return runeArr
+}
+
 // Marginally more efficient grid creation because go allocates every element to 0 value when using make()
 func MakeZeroGrid(colsX, rowsY int) [][]int {
 	grid := make([][]int, rowsY)

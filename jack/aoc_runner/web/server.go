@@ -40,6 +40,9 @@ func setupRoutes() chi.Router {
 	r.Get("/year/2025/day/1/part/1", y2025.D1P1SSE)
 	r.Get("/year/2025/day/1/part/2", y2025.D1P2SSE)
 	r.Get("/year/2025/day/2", y2025.D2SSE)
+	r.Get("/year/2025/day/3", y2025.D3SSE)
+	r.Get("/year/2025/day/4", y2025.D4SSE)
+	r.Get("/year/2025/day/5", y2025.D5SSE)
 	return r
 }
 

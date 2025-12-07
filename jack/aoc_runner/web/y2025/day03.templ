@@ -1,0 +1,32 @@
+package y2025
+
+templ day03() {
+	<section id="day02">
+		<div class="button-container">
+			<div class="text-center">
+				<div class="part-title">Both Parts</div>
+				<button
+					data-on:click="@get('/year/2025/day/3')"
+				>
+					Calculate
+				</button>
+			</div>
+			@Part1Joltage(0, 0)
+			@Part2Joltage(0, 0)
+		</div>
+	</section>
+}
+
+templ Part1Joltage(currentLine, ans int) {
+	<div id="day03p1">
+		<div>{ currentLine }</div>
+		<div>{ ans }</div>
+	</div>
+}
+
+templ Part2Joltage(currentLine, ans int) {
+	<div id="day03p2">
+		<div>{ currentLine }</div>
+		<div>{ ans }</div>
+	</div>
+}
